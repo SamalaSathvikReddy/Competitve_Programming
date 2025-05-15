@@ -39,7 +39,7 @@ void usaco(string problem) {
 // a-z:97-112
 // A-Z:65-90
 
-void solve() {
+int solve() {
     // Your code here
 }
 
