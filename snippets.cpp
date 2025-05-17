@@ -11,6 +11,7 @@ void sieve(){
             is_prime[j] = false;
         }
     }
+}
 
 
 int gcd(int a, int b){
