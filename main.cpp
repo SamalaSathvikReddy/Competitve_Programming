@@ -22,39 +22,21 @@ TASK:
                                                                            
 */
 
-
 #include <bits/stdc++.h>
 using namespace std;
 
+int main(void){
+  #ifndef ONLINE_JUDGE
 
-#define ll long long
-#define endl '\n'
+	freopen("input.txt", "r", stdin);     //for taking input
 
-void usaco(string problem) {
-    string inputFile = problem + ".in";
-    string outputFile = problem + ".out";
-    freopen(inputFile.c_str(), "r", stdin);
-    freopen(outputFile.c_str(), "w", stdout);
-}
-// a-z:97-112
-// A-Z:65-90
+	freopen("output.txt", "w", stdout);     //for displaying output
 
-int solve() {
-    // Your code here
-}
-
-int main() {
-    ios_base::sync_with_stdio(false);
-    cin.tie(NULL);
-    cout.tie(NULL);
-
-    //usaco("problem");
-
-    int t;
-    cin >> t;
-    while (t--) {
-        solve();
-    }
-
-    return 0;
+#endif
+  int t;
+  cin >> t;
+  while(t--){
+    
+  }  
+  return 0;
 }
