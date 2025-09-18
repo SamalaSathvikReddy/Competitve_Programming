@@ -33,7 +33,7 @@ int solve() {
 
 int main() {
     //usaco("problem");
-    fastio()
+    fastio();
     int T;
     cin >> T;
     while (T--) {
@@ -41,4 +41,5 @@ int main() {
     }
     return 0;
 }
+
 
